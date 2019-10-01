@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- TODO: implement modals form properly with b-form -->
     <h1 align="left">Inventory</h1>
     <b-button v-b-modal.addItem variant="primary" class="custom-btn">Add Item</b-button>
     <b-button v-b-modal.categoryModal variant="primary" class="custom-btn">Add Category</b-button>
