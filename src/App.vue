@@ -25,6 +25,11 @@
       </div>
     </nav>
     <router-view />
+    <div class="footer-copyright text-center py-3">
+      <mdb-container fluid>
+        &copy; Sim
+      </mdb-container>
+    </div>
   </div>
 </template>
 
