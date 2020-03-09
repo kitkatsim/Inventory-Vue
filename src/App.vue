@@ -19,17 +19,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-      <router-link class="nav-item nav-link" to="/about">Register</router-link>
-      <router-link class="nav-item nav-link" to="/inventory">Inventory</router-link>
+          <router-link class="nav-item nav-link" to="/about">Register</router-link>
+          <router-link class="nav-item nav-link" to="/inventory">Inventory</router-link>
         </div>
       </div>
     </nav>
     <router-view />
-    <div class="footer-copyright text-center py-3">
-      <mdb-container fluid>
-        &copy; Sim
-      </mdb-container>
-    </div>
+    <div class="footer-copyright text-center py-3">&copy; Sim</div>
   </div>
 </template>
 
